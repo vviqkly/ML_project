@@ -65,3 +65,5 @@ plt.ylabel("Продажи")
 plt.show()
 
 final_df.describe()
+
+df.to_csv('sales_data.csv', index=False, encoding='utf-8')
